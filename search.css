@@ -90,16 +90,32 @@ footer{
  bottom: 0;
  width: 100%;
 }
-#more-info{
+#more_info{
     padding:30px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     display: none;
     text-align: center;
+    gap:30px;
 }
 #more_info div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#more_info h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    color:rgb(255, 174, 0);
+}
+#more_info .prices{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+h1 ,h2 ,h3{
+    color:rgb(255, 174, 0)
 }
