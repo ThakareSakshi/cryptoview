@@ -90,3 +90,16 @@ footer{
  bottom: 0;
  width: 100%;
 }
+#more-info{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    text-align: center;
+}
+#more_info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
