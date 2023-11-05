@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header nav{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 2px 2px 8px grey;
+ }
+ #search-btn{
+     background-color: beige;
+     padding:10px 20px;
+    text-decoration: none;
+    color:black;
+    border-radius: 5px;
+    border:2px solid rgb(255, 204, 0);
+    font-size: 18px;
+ }
+ #search-btn:hover{
+    background-color: rgb(255, 204, 0);
+    color:white;
+ }
+input{
+    padding:10px;
+    border-radius: 8px;
+    width: 500px;
+    
+}
+button{
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: rgb(242, 151, 24);
+    color:white;
+    border:none;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(227, 226, 226);
+}
+.searchBox-container{
+    display: flex;
+    justify-content: center;
+    /* gap:20px; */
+    padding:20px;
+    margin:20px;
+}
+.coin_list{
+    height:100vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    padding:30px;
+   
+}
+#crypto-img{
+    height:50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.list-item{
+    padding:10px;
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item:hover{
+    box-shadow: 4px 4px 4px grey;
+}
+.name_container{
+    display: flex;
+    gap:6px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer{
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}

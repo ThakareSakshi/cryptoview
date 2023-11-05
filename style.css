@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    box-shadow: 2px 2px 8px rgb(80, 79, 79);
+    background-color: white;
+}
+body{
+    background-color: rgb(219, 218, 218);
+}
+header nav{
+   padding:20px;
+   display:flex;
+   justify-content: space-between;
+   background-color: white;
+   box-shadow: 2px 2px 8px rgb(100, 99, 99);
+   align-items: center;
+}
+#search-btn{
+    background-color: beige;
+    padding:10px 20px;
+   text-decoration: none;
+   color:black;
+   border-radius: 5px;
+   border:2px solid rgb(255, 204, 0);
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:40px
+}
+.top{
+    /* height:70px; */
+    width: 250px;
+    background-color: rgb(245, 243, 247);
+    margin:10px;
+    min-width: 280px;
+    display: flex;
+    padding:10px;
+    border-radius: 10px;
+    gap:10px;
+    animation: moving 10s linear infinite alternate;
+}
+#top-coins{
+    display: flex;
+    overflow: hidden;
+    
+}
+h2{
+    color:rgb(255, 140, 0);
+    text-align: center;
+}
+#crypto-img{
+    height:50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+@keyframes moving {
+    0%{
+      transform: translateX(10px);  
+    }
+    100%{
+        transform: translateX(-100vh);
+    }
+
+}
